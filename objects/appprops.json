@@ -1,0 +1,22 @@
+[
+  {
+    "qProperty": {
+      "qInfo": {
+        "qId": "3a0d729d-9f7f-488f-8e78-94ddcad15366",
+        "qType": "appprops"
+      },
+      "qMetaDef": {},
+      "sheetTitleBgColor": "",
+      "sheetTitleGradientColor": "",
+      "sheetTitleColor": "",
+      "sheetLogoThumbnail": {
+        "qStaticContentUrlDef": {}
+      },
+      "sheetLogoPosition": "",
+      "rtl": false,
+      "theme": "weekend at bernie's",
+      "disableCellNavMenu": false
+    },
+    "qChildren": []
+  }
+]

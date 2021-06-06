@@ -1,0 +1,44 @@
+{
+  "qInfos": [
+    {
+      "qId": "3a0d729d-9f7f-488f-8e78-94ddcad15366",
+      "qType": "appprops"
+    },
+    {
+      "qId": "BQpb",
+      "qType": "linechart"
+    },
+    {
+      "qId": "DtMBdDg",
+      "qType": "qs-amPieChart"
+    },
+    {
+      "qId": "KnPPbpf",
+      "qType": "auto-chart"
+    },
+    {
+      "qId": "MvhtQF",
+      "qType": "QlikSense_FastTypeChangeBar"
+    },
+    {
+      "qId": "WKLawP",
+      "qType": "kpi"
+    },
+    {
+      "qId": "WxNUT",
+      "qType": "gauge"
+    },
+    {
+      "qId": "d23cc9fa-e83f-4043-b1cb-2799f153c318",
+      "qType": "sheet"
+    },
+    {
+      "qId": "eDHYP",
+      "qType": "measure"
+    },
+    {
+      "qId": "eSttLtp",
+      "qType": "QlikSense_FastTypeChangeBar"
+    }
+  ]
+}

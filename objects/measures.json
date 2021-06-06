@@ -1,0 +1,64 @@
+[
+  {
+    "qInfo": {
+      "qId": "eDHYP",
+      "qType": "measure"
+    },
+    "qMeasure": {
+      "qLabel": "Nationality",
+      "qDef": "Count(DoctorID)",
+      "qGrouping": "N",
+      "qExpressions": [],
+      "qActiveExpression": 0,
+      "qNumFormat": {
+        "qType": "U",
+        "qnDec": 10,
+        "qUseThou": 0
+      },
+      "coloring": {
+        "gradient": {
+          "colors": [
+            {
+              "color": "#10865c",
+              "index": -1
+            },
+            {
+              "color": "#14a974",
+              "index": -1
+            },
+            {
+              "color": "#17c487",
+              "index": -1
+            },
+            {
+              "color": "#67cb85",
+              "index": -1
+            },
+            {
+              "color": "#74e696",
+              "index": -1
+            }
+          ],
+          "breakTypes": [
+            false,
+            false,
+            false,
+            false
+          ],
+          "limits": [
+            0.358,
+            0.614,
+            0.842,
+            0.968
+          ],
+          "limitType": "percent"
+        }
+      }
+    },
+    "qMetaDef": {
+      "title": "Nationality",
+      "description": "",
+      "tags": []
+    }
+  }
+]

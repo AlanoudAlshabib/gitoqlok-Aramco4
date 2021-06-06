@@ -1,0 +1,2954 @@
+{
+  "qProperty": {
+    "qInfo": {
+      "qId": "d23cc9fa-e83f-4043-b1cb-2799f153c318",
+      "qType": "sheet"
+    },
+    "qMetaDef": {
+      "title": "My new sheet",
+      "description": ""
+    },
+    "rank": null,
+    "thumbnail": {
+      "qStaticContentUrlDef": {}
+    },
+    "columns": 24,
+    "rows": 12,
+    "cells": [
+      {
+        "name": "DtMBdDg",
+        "type": "qs-amPieChart",
+        "col": 13,
+        "row": 7,
+        "colspan": 11,
+        "rowspan": 5,
+        "bounds": {
+          "y": 58.333333333333336,
+          "x": 54.166666666666664,
+          "width": 45.83333333333333,
+          "height": 41.66666666666667
+        }
+      },
+      {
+        "name": "WKLawP",
+        "type": "kpi",
+        "col": 0,
+        "row": 6,
+        "colspan": 24,
+        "rowspan": 1,
+        "bounds": {
+          "y": 50,
+          "x": 0,
+          "width": 100,
+          "height": 8.333333333333332
+        }
+      },
+      {
+        "name": "eSttLtp",
+        "type": "QlikSense_FastTypeChangeBar",
+        "col": 6,
+        "row": 7,
+        "colspan": 6,
+        "rowspan": 5,
+        "bounds": {
+          "y": 58.333333333333336,
+          "x": 25,
+          "width": 25,
+          "height": 41.66666666666667
+        }
+      },
+      {
+        "name": "MvhtQF",
+        "type": "QlikSense_FastTypeChangeBar",
+        "col": 0,
+        "row": 3,
+        "colspan": 6,
+        "rowspan": 3,
+        "bounds": {
+          "y": 25,
+          "x": 0,
+          "width": 25,
+          "height": 25
+        }
+      },
+      {
+        "name": "WxNUT",
+        "type": "gauge",
+        "col": 0,
+        "row": 7,
+        "colspan": 6,
+        "rowspan": 5,
+        "bounds": {
+          "y": 58.333333333333336,
+          "x": 0,
+          "width": 25,
+          "height": 41.66666666666667
+        }
+      },
+      {
+        "name": "BQpb",
+        "type": "linechart",
+        "col": 6,
+        "row": 3,
+        "colspan": 18,
+        "rowspan": 3,
+        "bounds": {
+          "y": 25,
+          "x": 25,
+          "width": 75,
+          "height": 25
+        }
+      },
+      {
+        "name": "KnPPbpf",
+        "type": "auto-chart",
+        "col": 0,
+        "row": 0,
+        "colspan": 24,
+        "rowspan": 3,
+        "bounds": {
+          "y": 0,
+          "x": 0,
+          "width": 100,
+          "height": 25
+        }
+      }
+    ],
+    "qChildListDef": {
+      "qData": {
+        "title": "/title"
+      }
+    }
+  },
+  "qChildren": [
+    {
+      "qProperty": {
+        "qInfo": {
+          "qId": "DtMBdDg",
+          "qType": "qs-amPieChart"
+        },
+        "qMetaDef": {},
+        "qHyperCubeDef": {
+          "qDimensions": [
+            {
+              "qDef": {
+                "qGrouping": "N",
+                "qFieldDefs": [
+                  "CTAS _Level"
+                ],
+                "qFieldLabels": [
+                  ""
+                ],
+                "qSortCriterias": [
+                  {
+                    "qSortByNumeric": 1,
+                    "qSortByAscii": 1,
+                    "qSortByLoadOrder": 1,
+                    "qExpression": {}
+                  }
+                ],
+                "qNumberPresentations": [],
+                "qActiveField": 0,
+                "autoSort": true,
+                "cId": "HBzacs",
+                "othersLabel": "Others"
+              },
+              "qOtherTotalSpec": {
+                "qOtherMode": "OTHER_OFF",
+                "qOtherCounted": {
+                  "qv": "10"
+                },
+                "qOtherLimit": {
+                  "qv": "0"
+                },
+                "qOtherLimitMode": "OTHER_GE_LIMIT",
+                "qForceBadValueKeeping": true,
+                "qApplyEvenWhenPossiblyWrongResult": true,
+                "qOtherSortMode": "OTHER_SORT_DESCENDING",
+                "qTotalMode": "TOTAL_OFF",
+                "qReferencedExpression": {}
+              },
+              "qOtherLabel": {
+                "qv": "Others"
+              },
+              "qTotalLabel": {},
+              "qCalcCond": {},
+              "qAttributeExpressions": [],
+              "qAttributeDimensions": [],
+              "qCalcCondition": {
+                "qCond": {},
+                "qMsg": {}
+              }
+            }
+          ],
+          "qMeasures": [
+            {
+              "qDef": {
+                "qTags": [],
+                "qGrouping": "N",
+                "qDef": "Count(PatientID)",
+                "qNumFormat": {
+                  "qType": "U",
+                  "qnDec": 10,
+                  "qUseThou": 0
+                },
+                "qAccumulate": 0,
+                "qActiveExpression": 0,
+                "qExpressions": [],
+                "autoSort": true,
+                "cId": "GpwTVB",
+                "numFormatFromTemplate": true
+              },
+              "qSortBy": {
+                "qSortByNumeric": -1,
+                "qSortByLoadOrder": 1,
+                "qExpression": {}
+              },
+              "qAttributeExpressions": [],
+              "qAttributeDimensions": [],
+              "qCalcCond": {},
+              "qCalcCondition": {
+                "qCond": {},
+                "qMsg": {}
+              },
+              "qTrendLines": [],
+              "qMiniChartDef": {
+                "qSortBy": {
+                  "qExpression": {}
+                },
+                "qOtherTotalSpec": {
+                  "qOtherMode": "OTHER_OFF",
+                  "qOtherCounted": {},
+                  "qOtherLimit": {},
+                  "qOtherLimitMode": "OTHER_GT_LIMIT",
+                  "qForceBadValueKeeping": true,
+                  "qApplyEvenWhenPossiblyWrongResult": true,
+                  "qOtherSortMode": "OTHER_SORT_DESCENDING",
+                  "qTotalMode": "TOTAL_OFF",
+                  "qReferencedExpression": {}
+                },
+                "qMaxNumberPoints": -1,
+                "qAttributeExpressions": []
+              }
+            }
+          ],
+          "qInterColumnSortOrder": [
+            0,
+            1
+          ],
+          "qInitialDataFetch": [
+            {
+              "qLeft": 0,
+              "qTop": 0,
+              "qWidth": 7,
+              "qHeight": 1250
+            }
+          ],
+          "qReductionMode": "N",
+          "qMode": "S",
+          "qPseudoDimPos": -1,
+          "qNoOfLeftDims": -1,
+          "qMaxStackedCells": 5000,
+          "qCalcCond": {},
+          "qTitle": {},
+          "qCalcCondition": {
+            "qCond": {},
+            "qMsg": {}
+          },
+          "qColumnOrder": [],
+          "qExpansionState": [],
+          "qLayoutExclude": {
+            "qHyperCubeDef": {
+              "qDimensions": [],
+              "qMeasures": [],
+              "qInterColumnSortOrder": [],
+              "qInitialDataFetch": [],
+              "qReductionMode": "N",
+              "qMode": "S",
+              "qPseudoDimPos": -1,
+              "qNoOfLeftDims": -1,
+              "qMaxStackedCells": 5000,
+              "qCalcCond": {},
+              "qTitle": {},
+              "qCalcCondition": {
+                "qCond": {},
+                "qMsg": {}
+              },
+              "qColumnOrder": [],
+              "qExpansionState": []
+            }
+          }
+        },
+        "showTitles": true,
+        "title": "",
+        "subtitle": "",
+        "footnote": "",
+        "disableNavMenu": false,
+        "showDetails": false,
+        "amChart": {
+          "interactionQlik": true,
+          "depth3D": 27.87,
+          "angle": 47.34,
+          "innerRadius": 0,
+          "handDrawn": false,
+          "handDrawScatter": 2,
+          "handDrawThickness": 1,
+          "usePrefix": false,
+          "fontFamily": "Verdana",
+          "fontFamilyCustom": "Verdana",
+          "radius": 38.6,
+          "startAngle": 90,
+          "alpha": 1,
+          "hoverAlpha": 0,
+          "outlineColor": "",
+          "outlineAlpha": 0,
+          "outlineThickness": 0,
+          "theme": "none",
+          "useThemeColors": false,
+          "measureColorsInd": 0,
+          "baseColor": "#662506",
+          "colors": "#14a773, #2978b2,  #00aac2, #4e3098,#e0e0e0",
+          "gradientBaseColor": "#662506",
+          "seqColorSpread": 100,
+          "colorLum": 0.05,
+          "chartAnimation": false,
+          "sequencedAnimation": false,
+          "startRadius": 500,
+          "startAlpha": 0,
+          "startDuration": 1,
+          "startEffect": "bounce",
+          "pullOutAnimation": false,
+          "pullOutOnlyOne": false,
+          "pullOutRadius": 46,
+          "pullOutDuration": 1,
+          "pullOutEffect": "bounce",
+          "marginBottom": 10,
+          "marginLeft": 0,
+          "marginRight": 0,
+          "marginTop": 10,
+          "backgroundColor": "#02296A",
+          "backgroundAlpha": 1,
+          "borderColor": "#000000",
+          "borderAlpha": 0,
+          "labelsEnabled": true,
+          "labelText": "[[title]]: [[percents]]%",
+          "labelTextCustom": "[[title]]",
+          "labelFontSize": 12,
+          "labelColor": "#000000",
+          "maxLabelWidth": 300,
+          "labelRadius": 50,
+          "hideLabelsPercent": 0,
+          "labelTickColor": "#000000",
+          "labelTickAlpha": 1,
+          "legend": {
+            "enabled": false,
+            "position": "bottom",
+            "align": "center",
+            "reversedOrder": false,
+            "maxColumns": 10,
+            "equalWidths": false,
+            "fontSize": 11,
+            "labelTextPick": "d",
+            "labelTextCustom": "[[title]]",
+            "color": "#000000",
+            "labelWidth": 100,
+            "showValueText": false,
+            "valueTextPick": "d",
+            "valueTextCustom": "",
+            "valueWidth": 50,
+            "valueAlign": "right",
+            "spacing": 20,
+            "verticalGap": 10,
+            "horizontalGap": 0,
+            "legendAdjustWidth": true,
+            "width": 300,
+            "backgroundColor": "#FFFFFF",
+            "backgroundAlpha": 0,
+            "borderColor": "#FFFFFF",
+            "borderAlpha": 0,
+            "markerSize": 16,
+            "markerType": "circle",
+            "markerBorderColor": "#FFFFFF",
+            "markerBorderAlpha": 0,
+            "markerBorderThickness": 1,
+            "markerLabelGap": 5,
+            "useMarkerColorForLabels": false,
+            "useMarkerColorForValues": false,
+            "autoMargins": true,
+            "marginTop": 0,
+            "marginBottom": 0,
+            "marginLeft": 20,
+            "marginRight": 20
+          },
+          "balloon": {
+            "enabled": false,
+            "drop": false,
+            "textPick": "d",
+            "textCustom": "[[title]] ([[percents]]%)",
+            "fontSize": 11,
+            "balloonColor": "#000000",
+            "animationDuration": 0.3,
+            "fixedPosition": true,
+            "maxWidth": 999,
+            "cornerRadius": 0,
+            "pointerOrientation": "down",
+            "pointerWidth": 8,
+            "horizontalPadding": 8,
+            "verticalPadding": 4,
+            "adjustBorderColor": true,
+            "borderColor": "#FFFFFF",
+            "borderAlpha": 1,
+            "borderThickness": 2,
+            "fillColor": "#FFFFFF",
+            "fillAlpha": 1,
+            "shadowColor": "#000000",
+            "shadowAlpha": 0
+          },
+          "titles": [],
+          "allLabels": []
+        },
+        "visualization": "qs-amPieChart",
+        "version": "1.0.0",
+        "extensionMeta": {
+          "translationKey": "",
+          "icon": "pie-chart",
+          "iconChar": "puzzle",
+          "isLibraryItem": true,
+          "visible": true,
+          "name": "QS amPieChart",
+          "description": "Pie Chart",
+          "template": "qs-amPieChart",
+          "iconPath": "M14.5,9 L13,9 L13,3.3 C13,3.1 12.9,3 12.7,3 L8,3 L8,1.5 C8,0.7 7.3,0 6.5,0 C5.7,0 5,0.7 5,1.5 L5,3 L0.3,3 C0.1,3 0,3.1 0,3.3 L0,9 L1.5,9 C2.3,9 3,9.7 3,10.5 C3,11.3 2.3,12 1.5,12 L0,12 L0,15.7 C0,15.9 0.1,16 0.3,16 L5,16 L5,14.5 C5,13.7 5.7,13 6.5,13 C7.3,13 8,13.7 8,14.5 L8,16 L12.7,16 C12.9,16 13,15.9 13,15.7 L13,12 L14.5,12 C15.3,12 16,11.3 16,10.5 C16,9.7 15.3,9 14.5,9 Z",
+          "isThirdParty": true,
+          "type": "visualization",
+          "version": "1.0.0",
+          "author": "modeled after Niels Lindberg-Poulsen amChart. By Les Howell",
+          "homepage": "",
+          "keywords": "qlik-sense, visualization",
+          "license": "",
+          "repository": "",
+          "style": "pie",
+          "dependencies": {
+            "qlik-sense": ">=3.0.x"
+          }
+        }
+      },
+      "qChildren": []
+    },
+    {
+      "qProperty": {
+        "qInfo": {
+          "qId": "WKLawP",
+          "qType": "kpi"
+        },
+        "qMetaDef": {},
+        "qHyperCubeDef": {
+          "qDimensions": [],
+          "qMeasures": [
+            {
+              "qDef": {
+                "qTags": [],
+                "qGrouping": "N",
+                "qDef": "Count(PatientID)",
+                "qNumFormat": {
+                  "qType": "U",
+                  "qnDec": 10,
+                  "qUseThou": 0
+                },
+                "qAccumulate": 0,
+                "qActiveExpression": 0,
+                "qExpressions": [],
+                "autoSort": true,
+                "cId": "KNJWpx",
+                "numFormatFromTemplate": true,
+                "measureAxis": {
+                  "min": 0,
+                  "max": 100
+                },
+                "conditionalColoring": {
+                  "useConditionalColoring": false,
+                  "singleColor": 3,
+                  "paletteSingleColor": {
+                    "index": -1,
+                    "color": "#f4fff7"
+                  },
+                  "segments": {
+                    "limits": [],
+                    "paletteColors": [
+                      {
+                        "index": -1,
+                        "color": "#006580"
+                      }
+                    ]
+                  },
+                  "useBaseColors": false
+                }
+              },
+              "qSortBy": {
+                "qSortByNumeric": -1,
+                "qSortByLoadOrder": 1,
+                "qExpression": {}
+              },
+              "qAttributeExpressions": [],
+              "qAttributeDimensions": [],
+              "qCalcCond": {},
+              "qCalcCondition": {
+                "qCond": {},
+                "qMsg": {}
+              },
+              "qTrendLines": [],
+              "qMiniChartDef": {
+                "qSortBy": {
+                  "qExpression": {}
+                },
+                "qOtherTotalSpec": {
+                  "qOtherMode": "OTHER_OFF",
+                  "qOtherCounted": {},
+                  "qOtherLimit": {},
+                  "qOtherLimitMode": "OTHER_GT_LIMIT",
+                  "qForceBadValueKeeping": true,
+                  "qApplyEvenWhenPossiblyWrongResult": true,
+                  "qOtherSortMode": "OTHER_SORT_DESCENDING",
+                  "qTotalMode": "TOTAL_OFF",
+                  "qReferencedExpression": {}
+                },
+                "qMaxNumberPoints": -1,
+                "qAttributeExpressions": []
+              }
+            }
+          ],
+          "qInterColumnSortOrder": [
+            0
+          ],
+          "qSuppressMissing": true,
+          "qInitialDataFetch": [
+            {
+              "qLeft": 0,
+              "qTop": 0,
+              "qWidth": 500,
+              "qHeight": 10
+            }
+          ],
+          "qReductionMode": "N",
+          "qMode": "S",
+          "qPseudoDimPos": -1,
+          "qNoOfLeftDims": -1,
+          "qMaxStackedCells": 5000,
+          "qCalcCond": {},
+          "qTitle": {},
+          "qCalcCondition": {
+            "qCond": {},
+            "qMsg": {}
+          },
+          "qColumnOrder": [],
+          "qExpansionState": [],
+          "qLayoutExclude": {
+            "qHyperCubeDef": {
+              "qDimensions": [],
+              "qMeasures": [],
+              "qInterColumnSortOrder": [],
+              "qInitialDataFetch": [],
+              "qReductionMode": "N",
+              "qMode": "S",
+              "qPseudoDimPos": -1,
+              "qNoOfLeftDims": -1,
+              "qMaxStackedCells": 5000,
+              "qCalcCond": {},
+              "qTitle": {},
+              "qCalcCondition": {
+                "qCond": {},
+                "qMsg": {}
+              },
+              "qColumnOrder": [],
+              "qExpansionState": []
+            }
+          }
+        },
+        "showTitles": false,
+        "title": "",
+        "subtitle": "",
+        "footnote": "",
+        "disableNavMenu": false,
+        "showDetails": false,
+        "showMeasureTitle": true,
+        "showSecondMeasureTitle": true,
+        "textAlign": "center",
+        "layoutBehavior": "responsive",
+        "fontSize": "M",
+        "useLink": false,
+        "sheetLink": "",
+        "openUrlInNewTab": true,
+        "visualization": "kpi",
+        "version": "0.1.0"
+      },
+      "qChildren": []
+    },
+    {
+      "qProperty": {
+        "qInfo": {
+          "qId": "eSttLtp",
+          "qType": "QlikSense_FastTypeChangeBar"
+        },
+        "qMetaDef": {},
+        "qHyperCubeDef": {
+          "qDimensions": [
+            {
+              "qDef": {
+                "qGrouping": "N",
+                "qFieldDefs": [
+                  "Nationality"
+                ],
+                "qFieldLabels": [
+                  ""
+                ],
+                "qSortCriterias": [
+                  {
+                    "qSortByNumeric": 1,
+                    "qSortByAscii": 1,
+                    "qSortByLoadOrder": 1,
+                    "qExpression": {}
+                  }
+                ],
+                "qNumberPresentations": [],
+                "qActiveField": 0,
+                "autoSort": true,
+                "cId": "pZKM",
+                "othersLabel": "Others"
+              },
+              "qOtherTotalSpec": {
+                "qOtherMode": "OTHER_OFF",
+                "qOtherCounted": {
+                  "qv": "10"
+                },
+                "qOtherLimit": {
+                  "qv": "0"
+                },
+                "qOtherLimitMode": "OTHER_GE_LIMIT",
+                "qForceBadValueKeeping": true,
+                "qApplyEvenWhenPossiblyWrongResult": true,
+                "qOtherSortMode": "OTHER_SORT_DESCENDING",
+                "qTotalMode": "TOTAL_OFF",
+                "qReferencedExpression": {}
+              },
+              "qOtherLabel": {
+                "qv": "Others"
+              },
+              "qTotalLabel": {},
+              "qCalcCond": {},
+              "qAttributeExpressions": [],
+              "qAttributeDimensions": [],
+              "qCalcCondition": {
+                "qCond": {},
+                "qMsg": {}
+              }
+            }
+          ],
+          "qMeasures": [
+            {
+              "qDef": {
+                "qTags": [],
+                "qGrouping": "N",
+                "qDef": "Count(PatientID)",
+                "qNumFormat": {
+                  "qType": "U",
+                  "qnDec": 10,
+                  "qUseThou": 0
+                },
+                "qAccumulate": 0,
+                "qActiveExpression": 0,
+                "qExpressions": [],
+                "autoSort": true,
+                "cId": "FUJPHt",
+                "numFormatFromTemplate": true
+              },
+              "qSortBy": {
+                "qSortByNumeric": -1,
+                "qSortByLoadOrder": 1,
+                "qExpression": {}
+              },
+              "qAttributeExpressions": [],
+              "qAttributeDimensions": [],
+              "qCalcCond": {},
+              "qCalcCondition": {
+                "qCond": {},
+                "qMsg": {}
+              },
+              "qTrendLines": [],
+              "qMiniChartDef": {
+                "qSortBy": {
+                  "qExpression": {}
+                },
+                "qOtherTotalSpec": {
+                  "qOtherMode": "OTHER_OFF",
+                  "qOtherCounted": {},
+                  "qOtherLimit": {},
+                  "qOtherLimitMode": "OTHER_GT_LIMIT",
+                  "qForceBadValueKeeping": true,
+                  "qApplyEvenWhenPossiblyWrongResult": true,
+                  "qOtherSortMode": "OTHER_SORT_DESCENDING",
+                  "qTotalMode": "TOTAL_OFF",
+                  "qReferencedExpression": {}
+                },
+                "qMaxNumberPoints": -1,
+                "qAttributeExpressions": []
+              }
+            }
+          ],
+          "qInterColumnSortOrder": [
+            0,
+            1
+          ],
+          "qInitialDataFetch": [
+            {
+              "qLeft": 0,
+              "qTop": 0,
+              "qWidth": 2,
+              "qHeight": 5000
+            }
+          ],
+          "qReductionMode": "N",
+          "qMode": "S",
+          "qPseudoDimPos": -1,
+          "qNoOfLeftDims": -1,
+          "qMaxStackedCells": 5000,
+          "qCalcCond": {},
+          "qTitle": {},
+          "qCalcCondition": {
+            "qCond": {},
+            "qMsg": {}
+          },
+          "qColumnOrder": [],
+          "qExpansionState": [],
+          "qLayoutExclude": {
+            "qHyperCubeDef": {
+              "qDimensions": [],
+              "qMeasures": [],
+              "qInterColumnSortOrder": [],
+              "qInitialDataFetch": [],
+              "qReductionMode": "N",
+              "qMode": "S",
+              "qPseudoDimPos": -1,
+              "qNoOfLeftDims": -1,
+              "qMaxStackedCells": 5000,
+              "qCalcCond": {},
+              "qTitle": {},
+              "qCalcCondition": {
+                "qCond": {},
+                "qMsg": {}
+              },
+              "qColumnOrder": [],
+              "qExpansionState": []
+            }
+          }
+        },
+        "custom": {
+          "showTitle": false,
+          "title": "",
+          "showTable": false,
+          "showBar": false,
+          "showLine": false,
+          "showRestore": false,
+          "showSave": false,
+          "colour": {
+            "color": "#14a773",
+            "index": -1
+          }
+        },
+        "visualization": "QlikSense_FastTypeChangeBar",
+        "version": "0.02",
+        "extensionMeta": {
+          "translationKey": "",
+          "icon": "bar-chart",
+          "iconChar": "puzzle",
+          "isLibraryItem": true,
+          "visible": true,
+          "name": "Bar Chart Fast Type Change",
+          "description": "This is a chart extension based on eCharts. This bar chart is capable of fast type change to table and Line chart.",
+          "template": "QlikSense_FastTypeChangeBar",
+          "iconPath": "M14.5,9 L13,9 L13,3.3 C13,3.1 12.9,3 12.7,3 L8,3 L8,1.5 C8,0.7 7.3,0 6.5,0 C5.7,0 5,0.7 5,1.5 L5,3 L0.3,3 C0.1,3 0,3.1 0,3.3 L0,9 L1.5,9 C2.3,9 3,9.7 3,10.5 C3,11.3 2.3,12 1.5,12 L0,12 L0,15.7 C0,15.9 0.1,16 0.3,16 L5,16 L5,14.5 C5,13.7 5.7,13 6.5,13 C7.3,13 8,13.7 8,14.5 L8,16 L12.7,16 C12.9,16 13,15.9 13,15.7 L13,12 L14.5,12 C15.3,12 16,11.3 16,10.5 C16,9.7 15.3,9 14.5,9 Z",
+          "isThirdParty": true,
+          "type": "visualization",
+          "version": "0.02",
+          "preview": "images/preview.png",
+          "homepage": "http://oliveira.uk.tn",
+          "author": "Diogo Oliveira",
+          "keywords": "qlik-sense, visualization",
+          "license": "",
+          "repository": "https://github.com/oliveira89/QlikSense_FastTypeChangeBar",
+          "qlikbranch": "http://branch.qlik.com/#!/project/",
+          "dependencies": {
+            "qlik-sense": ">=3.0.x"
+          },
+          "previewIconURL": "https://bs-tr-lt-4342.fhi.group/extensions/QlikSense_FastTypeChangeBar/images/preview.png"
+        }
+      },
+      "qChildren": []
+    },
+    {
+      "qProperty": {
+        "qInfo": {
+          "qId": "MvhtQF",
+          "qType": "QlikSense_FastTypeChangeBar"
+        },
+        "qMetaDef": {},
+        "qHyperCubeDef": {
+          "qDimensions": [
+            {
+              "qDef": {
+                "qGrouping": "N",
+                "qFieldDefs": [
+                  "Nationality"
+                ],
+                "qFieldLabels": [
+                  ""
+                ],
+                "qSortCriterias": [
+                  {
+                    "qSortByNumeric": 1,
+                    "qSortByAscii": 1,
+                    "qSortByLoadOrder": 1,
+                    "qExpression": {}
+                  }
+                ],
+                "qNumberPresentations": [],
+                "qActiveField": 0,
+                "autoSort": true,
+                "cId": "ZxNEVU",
+                "othersLabel": "Others"
+              },
+              "qOtherTotalSpec": {
+                "qOtherMode": "OTHER_OFF",
+                "qOtherCounted": {
+                  "qv": "10"
+                },
+                "qOtherLimit": {
+                  "qv": "0"
+                },
+                "qOtherLimitMode": "OTHER_GE_LIMIT",
+                "qForceBadValueKeeping": true,
+                "qApplyEvenWhenPossiblyWrongResult": true,
+                "qOtherSortMode": "OTHER_SORT_DESCENDING",
+                "qTotalMode": "TOTAL_OFF",
+                "qReferencedExpression": {}
+              },
+              "qOtherLabel": {
+                "qv": "Others"
+              },
+              "qTotalLabel": {},
+              "qCalcCond": {},
+              "qAttributeExpressions": [],
+              "qAttributeDimensions": [],
+              "qCalcCondition": {
+                "qCond": {},
+                "qMsg": {}
+              },
+              "othersLabel": "Others"
+            }
+          ],
+          "qMeasures": [
+            {
+              "qDef": {
+                "qTags": [],
+                "qGrouping": "N",
+                "qDef": "Count(PatientID)",
+                "qNumFormat": {
+                  "qType": "U",
+                  "qnDec": 10,
+                  "qUseThou": 0
+                },
+                "qAccumulate": 0,
+                "qActiveExpression": 0,
+                "qExpressions": [],
+                "autoSort": true,
+                "cId": "hAdqJjg",
+                "numFormatFromTemplate": true
+              },
+              "qSortBy": {
+                "qSortByNumeric": -1,
+                "qSortByLoadOrder": 1,
+                "qExpression": {}
+              },
+              "qAttributeExpressions": [],
+              "qAttributeDimensions": [],
+              "qCalcCond": {},
+              "qCalcCondition": {
+                "qCond": {},
+                "qMsg": {}
+              },
+              "qTrendLines": [],
+              "qMiniChartDef": {
+                "qSortBy": {
+                  "qExpression": {}
+                },
+                "qOtherTotalSpec": {
+                  "qOtherMode": "OTHER_OFF",
+                  "qOtherCounted": {},
+                  "qOtherLimit": {},
+                  "qOtherLimitMode": "OTHER_GT_LIMIT",
+                  "qForceBadValueKeeping": true,
+                  "qApplyEvenWhenPossiblyWrongResult": true,
+                  "qOtherSortMode": "OTHER_SORT_DESCENDING",
+                  "qTotalMode": "TOTAL_OFF",
+                  "qReferencedExpression": {}
+                },
+                "qMaxNumberPoints": -1,
+                "qAttributeExpressions": []
+              }
+            }
+          ],
+          "qInterColumnSortOrder": [
+            1,
+            0
+          ],
+          "qSuppressMissing": true,
+          "qInitialDataFetch": [
+            {
+              "qLeft": 0,
+              "qTop": 0,
+              "qWidth": 2,
+              "qHeight": 5000
+            }
+          ],
+          "qReductionMode": "N",
+          "qMode": "S",
+          "qPseudoDimPos": -1,
+          "qNoOfLeftDims": -1,
+          "qMaxStackedCells": 5000,
+          "qCalcCond": {},
+          "qTitle": {},
+          "qCalcCondition": {
+            "qCond": {},
+            "qMsg": {}
+          },
+          "qColumnOrder": [],
+          "qExpansionState": []
+        },
+        "custom": {
+          "showTitle": false,
+          "title": "",
+          "showTable": false,
+          "showBar": false,
+          "showLine": false,
+          "showRestore": false,
+          "showSave": false,
+          "colour": {
+            "color": "#46c646",
+            "index": -1
+          }
+        },
+        "visualization": "QlikSense_FastTypeChangeBar",
+        "version": "1.6.0",
+        "extensionMeta": {
+          "translationKey": "",
+          "icon": "bar-chart",
+          "iconChar": "puzzle",
+          "isLibraryItem": true,
+          "visible": true,
+          "name": "Bar Chart Fast Type Change",
+          "description": "This is a chart extension based on eCharts. This bar chart is capable of fast type change to table and Line chart.",
+          "template": "QlikSense_FastTypeChangeBar",
+          "iconPath": "M14.5,9 L13,9 L13,3.3 C13,3.1 12.9,3 12.7,3 L8,3 L8,1.5 C8,0.7 7.3,0 6.5,0 C5.7,0 5,0.7 5,1.5 L5,3 L0.3,3 C0.1,3 0,3.1 0,3.3 L0,9 L1.5,9 C2.3,9 3,9.7 3,10.5 C3,11.3 2.3,12 1.5,12 L0,12 L0,15.7 C0,15.9 0.1,16 0.3,16 L5,16 L5,14.5 C5,13.7 5.7,13 6.5,13 C7.3,13 8,13.7 8,14.5 L8,16 L12.7,16 C12.9,16 13,15.9 13,15.7 L13,12 L14.5,12 C15.3,12 16,11.3 16,10.5 C16,9.7 15.3,9 14.5,9 Z",
+          "isThirdParty": true,
+          "type": "visualization",
+          "version": "0.02",
+          "preview": "images/preview.png",
+          "homepage": "http://oliveira.uk.tn",
+          "author": "Diogo Oliveira",
+          "keywords": "qlik-sense, visualization",
+          "license": "",
+          "repository": "https://github.com/oliveira89/QlikSense_FastTypeChangeBar",
+          "qlikbranch": "http://branch.qlik.com/#!/project/",
+          "dependencies": {
+            "qlik-sense": ">=3.0.x"
+          },
+          "previewIconURL": "https://bs-tr-lt-4342.fhi.group/extensions/QlikSense_FastTypeChangeBar/images/preview.png"
+        },
+        "qLayoutExclude": {
+          "disabled": {
+            "qExtendsId": "",
+            "qStateName": "",
+            "refLine": {
+              "refLines": [],
+              "dimRefLines": []
+            },
+            "showTitles": false,
+            "title": "",
+            "subtitle": "",
+            "footnote": "",
+            "disableNavMenu": false,
+            "showDetails": false,
+            "showDisclaimer": true,
+            "components": [
+              {
+                "key": "bar",
+                "style": {
+                  "width": 0.71,
+                  "strokeColor": {
+                    "index": -1,
+                    "color": "#205891"
+                  },
+                  "strokeWidth": "none"
+                }
+              }
+            ],
+            "barGrouping": {
+              "grouping": "grouped"
+            },
+            "orientation": "vertical",
+            "scrollbar": "bar",
+            "scrollStartPos": 0,
+            "gridLine": {
+              "auto": true,
+              "spacing": 2
+            },
+            "dataPoint": {
+              "showLabels": true,
+              "showSegmentLabels": false,
+              "showTotalLabels": true
+            },
+            "color": {
+              "auto": false,
+              "mode": "byMeasure",
+              "formatting": {
+                "numFormatFromTemplate": true,
+                "quarantine": {
+                  "qNumFormat": {},
+                  "isCustomFormatted": false
+                },
+                "qNumFormat": null
+              },
+              "useBaseColors": "off",
+              "paletteColor": {
+                "index": -1,
+                "color": "#14a773"
+              },
+              "useDimColVal": true,
+              "useMeasureGradient": true,
+              "persistent": false,
+              "expressionIsColor": true,
+              "expressionLabel": "",
+              "measureScheme": "sg",
+              "reverseScheme": true,
+              "dimensionScheme": "12",
+              "autoMinMax": true,
+              "measureMin": 0,
+              "measureMax": 10,
+              "altLabel": "Nationality",
+              "byMeasureDef": {
+                "label": "Nationality",
+                "key": "eDHYP",
+                "type": "libraryItem"
+              }
+            },
+            "legend": {
+              "show": true,
+              "dock": "auto",
+              "showTitle": true
+            },
+            "dimensionAxis": {
+              "continuousAuto": true,
+              "show": "all",
+              "label": "auto",
+              "dock": "near",
+              "axisDisplayMode": "auto",
+              "maxVisibleItems": 10
+            },
+            "preferContinuousAxis": true,
+            "measureAxis": {
+              "show": "all",
+              "dock": "near",
+              "spacing": 1,
+              "autoMinMax": true,
+              "minMax": "min",
+              "min": 0,
+              "max": 10
+            },
+            "tooltip": {
+              "auto": true,
+              "hideBasic": false,
+              "data": {}
+            },
+            "showMiniChartForContinuousAxis": true
+          },
+          "quarantine": {
+            "supportedAutoMinMax": {
+              "measureAxis.min": 0,
+              "measureAxis.max": 10
+            }
+          }
+        }
+      },
+      "qChildren": []
+    },
+    {
+      "qProperty": {
+        "qInfo": {
+          "qId": "WxNUT",
+          "qType": "gauge"
+        },
+        "qMetaDef": {},
+        "qHyperCubeDef": {
+          "qDimensions": [],
+          "qMeasures": [
+            {
+              "qDef": {
+                "qTags": [],
+                "qGrouping": "N",
+                "qDef": "Count(DoctorID)",
+                "qNumFormat": {
+                  "qType": "U",
+                  "qnDec": 10,
+                  "qUseThou": 0
+                },
+                "qAccumulate": 0,
+                "qActiveExpression": 0,
+                "qExpressions": [],
+                "autoSort": true,
+                "cId": "hNjgp",
+                "numFormatFromTemplate": true
+              },
+              "qSortBy": {
+                "qSortByNumeric": -1,
+                "qSortByLoadOrder": 1,
+                "qExpression": {}
+              },
+              "qAttributeExpressions": [],
+              "qAttributeDimensions": [],
+              "qCalcCond": {},
+              "qCalcCondition": {
+                "qCond": {},
+                "qMsg": {}
+              },
+              "qTrendLines": [],
+              "qMiniChartDef": {
+                "qSortBy": {
+                  "qExpression": {}
+                },
+                "qOtherTotalSpec": {
+                  "qOtherMode": "OTHER_OFF",
+                  "qOtherCounted": {},
+                  "qOtherLimit": {},
+                  "qOtherLimitMode": "OTHER_GT_LIMIT",
+                  "qForceBadValueKeeping": true,
+                  "qApplyEvenWhenPossiblyWrongResult": true,
+                  "qOtherSortMode": "OTHER_SORT_DESCENDING",
+                  "qTotalMode": "TOTAL_OFF",
+                  "qReferencedExpression": {}
+                },
+                "qMaxNumberPoints": -1,
+                "qAttributeExpressions": []
+              }
+            }
+          ],
+          "qInterColumnSortOrder": [
+            0
+          ],
+          "qSuppressMissing": true,
+          "qInitialDataFetch": [
+            {
+              "qLeft": 0,
+              "qTop": 0,
+              "qWidth": 1,
+              "qHeight": 1
+            }
+          ],
+          "qReductionMode": "N",
+          "qMode": "S",
+          "qPseudoDimPos": -1,
+          "qNoOfLeftDims": -1,
+          "qMaxStackedCells": 5000,
+          "qCalcCond": {},
+          "qTitle": {},
+          "qCalcCondition": {
+            "qCond": {},
+            "qMsg": {}
+          },
+          "qColumnOrder": [],
+          "qExpansionState": [],
+          "qLayoutExclude": {
+            "qHyperCubeDef": {
+              "qDimensions": [],
+              "qMeasures": [],
+              "qInterColumnSortOrder": [],
+              "qInitialDataFetch": [],
+              "qReductionMode": "N",
+              "qMode": "S",
+              "qPseudoDimPos": -1,
+              "qNoOfLeftDims": -1,
+              "qMaxStackedCells": 5000,
+              "qCalcCond": {},
+              "qTitle": {},
+              "qCalcCondition": {
+                "qCond": {},
+                "qMsg": {}
+              },
+              "qColumnOrder": [],
+              "qExpansionState": []
+            }
+          }
+        },
+        "refLine": {
+          "refLines": []
+        },
+        "showTitles": true,
+        "title": "",
+        "subtitle": "",
+        "footnote": "",
+        "disableNavMenu": false,
+        "showDetails": true,
+        "measureAxis": {
+          "min": 0,
+          "max": 100,
+          "show": "all",
+          "spacing": 0.5
+        },
+        "gaugetype": "radial",
+        "autoOrientation": true,
+        "orientation": "horizontal",
+        "angle": 0.7,
+        "useSegments": true,
+        "color": {
+          "useBaseColors": "off"
+        },
+        "paletteProgressColor": {
+          "index": 6
+        },
+        "valueMode": "absolute",
+        "maxSegments": 6,
+        "segmentInfo": {
+          "limits": [],
+          "paletteColors": [
+            {
+              "color": "#74e696",
+              "index": -1
+            }
+          ],
+          "colors": [
+            {
+              "color": 3
+            }
+          ]
+        },
+        "disclaimerClosed": true,
+        "visualization": "gauge"
+      },
+      "qChildren": []
+    },
+    {
+      "qProperty": {
+        "qInfo": {
+          "qId": "BQpb",
+          "qType": "linechart"
+        },
+        "qMetaDef": {},
+        "qHyperCubeDef": {
+          "qDimensions": [
+            {
+              "qDef": {
+                "qGrouping": "N",
+                "qFieldDefs": [
+                  "CTAS _Level"
+                ],
+                "qFieldLabels": [
+                  ""
+                ],
+                "qSortCriterias": [
+                  {
+                    "qSortByNumeric": 1,
+                    "qSortByAscii": 1,
+                    "qSortByLoadOrder": 1,
+                    "qExpression": {}
+                  }
+                ],
+                "qNumberPresentations": [],
+                "qActiveField": 0,
+                "autoSort": true,
+                "cId": "mSuQz",
+                "othersLabel": "Others"
+              },
+              "qOtherTotalSpec": {
+                "qOtherMode": "OTHER_OFF",
+                "qOtherCounted": {
+                  "qv": "10"
+                },
+                "qOtherLimit": {
+                  "qv": "0"
+                },
+                "qOtherLimitMode": "OTHER_GE_LIMIT",
+                "qForceBadValueKeeping": true,
+                "qApplyEvenWhenPossiblyWrongResult": true,
+                "qOtherSortMode": "OTHER_SORT_DESCENDING",
+                "qTotalMode": "TOTAL_OFF",
+                "qReferencedExpression": {}
+              },
+              "qOtherLabel": {
+                "qv": "Others"
+              },
+              "qTotalLabel": {},
+              "qCalcCond": {},
+              "qAttributeExpressions": [],
+              "qAttributeDimensions": [],
+              "qCalcCondition": {
+                "qCond": {},
+                "qMsg": {}
+              }
+            }
+          ],
+          "qMeasures": [
+            {
+              "qDef": {
+                "qTags": [],
+                "qGrouping": "N",
+                "qDef": "Avg(PatientID)",
+                "qNumFormat": {
+                  "qType": "U",
+                  "qnDec": 10,
+                  "qUseThou": 0
+                },
+                "qAccumulate": 0,
+                "qActiveExpression": 0,
+                "qExpressions": [],
+                "autoSort": true,
+                "cId": "PLKLEMF",
+                "numFormatFromTemplate": true
+              },
+              "qSortBy": {
+                "qSortByNumeric": -1,
+                "qSortByLoadOrder": 1,
+                "qExpression": {}
+              },
+              "qAttributeExpressions": [],
+              "qAttributeDimensions": [],
+              "qCalcCond": {},
+              "qCalcCondition": {
+                "qCond": {},
+                "qMsg": {}
+              },
+              "qTrendLines": [],
+              "qMiniChartDef": {
+                "qSortBy": {
+                  "qExpression": {}
+                },
+                "qOtherTotalSpec": {
+                  "qOtherMode": "OTHER_OFF",
+                  "qOtherCounted": {},
+                  "qOtherLimit": {},
+                  "qOtherLimitMode": "OTHER_GT_LIMIT",
+                  "qForceBadValueKeeping": true,
+                  "qApplyEvenWhenPossiblyWrongResult": true,
+                  "qOtherSortMode": "OTHER_SORT_DESCENDING",
+                  "qTotalMode": "TOTAL_OFF",
+                  "qReferencedExpression": {}
+                },
+                "qMaxNumberPoints": -1,
+                "qAttributeExpressions": []
+              }
+            }
+          ],
+          "qInterColumnSortOrder": [
+            0,
+            1
+          ],
+          "qSuppressMissing": true,
+          "qInitialDataFetch": [
+            {
+              "qLeft": 0,
+              "qTop": 0,
+              "qWidth": 17,
+              "qHeight": 500
+            }
+          ],
+          "qReductionMode": "N",
+          "qMode": "S",
+          "qPseudoDimPos": -1,
+          "qNoOfLeftDims": -1,
+          "qAlwaysFullyExpanded": true,
+          "qMaxStackedCells": 5000,
+          "qCalcCond": {},
+          "qTitle": {},
+          "qCalcCondition": {
+            "qCond": {},
+            "qMsg": {}
+          },
+          "qColumnOrder": [],
+          "qExpansionState": [],
+          "qLayoutExclude": {
+            "qHyperCubeDef": {
+              "qDimensions": [],
+              "qMeasures": [],
+              "qInterColumnSortOrder": [],
+              "qInitialDataFetch": [],
+              "qReductionMode": "N",
+              "qMode": "S",
+              "qPseudoDimPos": -1,
+              "qNoOfLeftDims": -1,
+              "qMaxStackedCells": 5000,
+              "qCalcCond": {},
+              "qTitle": {},
+              "qCalcCondition": {
+                "qCond": {},
+                "qMsg": {}
+              },
+              "qColumnOrder": [],
+              "qExpansionState": []
+            }
+          }
+        },
+        "refLine": {
+          "refLines": [],
+          "dimRefLines": []
+        },
+        "showTitles": true,
+        "title": "",
+        "subtitle": "",
+        "footnote": "",
+        "disableNavMenu": false,
+        "showDetails": true,
+        "showDisclaimer": true,
+        "components": [
+          {
+            "key": "line",
+            "style": {
+              "dataPointSize": 11,
+              "lineThickness": 2,
+              "lineType": "solid",
+              "lineCurve": "linear"
+            }
+          }
+        ],
+        "lineType": "area",
+        "stackedArea": false,
+        "separateStacking": true,
+        "orientation": "horizontal",
+        "scrollbar": "miniChart",
+        "scrollStartPos": 0,
+        "nullMode": "gap",
+        "dataPoint": {
+          "show": true,
+          "showLabels": true
+        },
+        "gridLine": {
+          "auto": true,
+          "spacing": 2
+        },
+        "color": {
+          "auto": false,
+          "mode": "primary",
+          "formatting": {
+            "numFormatFromTemplate": true
+          },
+          "useBaseColors": "off",
+          "paletteColor": {
+            "index": -1,
+            "color": "#57ad71"
+          },
+          "useDimColVal": true,
+          "useMeasureGradient": true,
+          "persistent": false,
+          "expressionIsColor": true,
+          "expressionLabel": "",
+          "measureScheme": "sg",
+          "reverseScheme": false,
+          "dimensionScheme": "12",
+          "autoMinMax": true,
+          "measureMin": 0,
+          "measureMax": 10,
+          "altLabel": "Avg(PatientID)",
+          "byMeasureDef": {
+            "label": "Avg(PatientID)",
+            "key": "Avg(PatientID)",
+            "type": "expression"
+          }
+        },
+        "legend": {
+          "show": true,
+          "dock": "auto",
+          "showTitle": true
+        },
+        "dimensionAxis": {
+          "continuousAuto": true,
+          "show": "all",
+          "label": "auto",
+          "dock": "near",
+          "axisDisplayMode": "auto",
+          "maxVisibleItems": 10
+        },
+        "preferContinuousAxis": true,
+        "measureAxis": {
+          "show": "all",
+          "dock": "near",
+          "spacing": 1,
+          "autoMinMax": true,
+          "minMax": "min",
+          "min": 0,
+          "max": 10,
+          "logarithmic": false
+        },
+        "tooltip": {
+          "auto": true,
+          "hideBasic": false,
+          "title": "",
+          "description": ""
+        },
+        "visualization": "linechart",
+        "version": "1.5.0",
+        "showMiniChartForContinuousAxis": true
+      },
+      "qChildren": []
+    },
+    {
+      "qProperty": {
+        "qInfo": {
+          "qId": "KnPPbpf",
+          "qType": "auto-chart"
+        },
+        "qMetaDef": {},
+        "qHyperCubeDef": {
+          "qDimensions": [
+            {
+              "qDef": {
+                "qGrouping": "N",
+                "qFieldDefs": [
+                  "Nationality"
+                ],
+                "qFieldLabels": [],
+                "qSortCriterias": [
+                  {
+                    "qSortByLoadOrder": 1,
+                    "qExpression": {}
+                  }
+                ],
+                "qNumberPresentations": [],
+                "qActiveField": 0
+              },
+              "qOtherTotalSpec": {
+                "qOtherMode": "OTHER_OFF",
+                "qOtherCounted": {},
+                "qOtherLimit": {},
+                "qOtherLimitMode": "OTHER_GT_LIMIT",
+                "qForceBadValueKeeping": true,
+                "qApplyEvenWhenPossiblyWrongResult": true,
+                "qOtherSortMode": "OTHER_SORT_DESCENDING",
+                "qTotalMode": "TOTAL_OFF",
+                "qReferencedExpression": {}
+              },
+              "qOtherLabel": {},
+              "qTotalLabel": {},
+              "qCalcCond": {},
+              "qAttributeExpressions": [],
+              "qAttributeDimensions": [],
+              "qCalcCondition": {
+                "qCond": {},
+                "qMsg": {}
+              }
+            }
+          ],
+          "qMeasures": [],
+          "qInterColumnSortOrder": [
+            0
+          ],
+          "qSuppressMissing": true,
+          "qInitialDataFetch": [],
+          "qReductionMode": "N",
+          "qMode": "S",
+          "qPseudoDimPos": -1,
+          "qNoOfLeftDims": -1,
+          "qMaxStackedCells": 5000,
+          "qCalcCond": {},
+          "qTitle": {},
+          "qCalcCondition": {
+            "qCond": {},
+            "qMsg": {}
+          },
+          "qColumnOrder": [],
+          "qExpansionState": []
+        },
+        "showTitles": true,
+        "title": "",
+        "subtitle": "",
+        "footnote": "",
+        "disableNavMenu": false,
+        "showDetails": false,
+        "visualization": "auto-chart",
+        "qUndoExclude": {
+          "hashCode": -996870990,
+          "generated": {
+            "gaLayers": [
+              {
+                "type": "AreaLayer",
+                "cId": "cao_geoAreaLayer",
+                "locationOrLatitude": {
+                  "key": "=[Patient.Nationality_GeoInfo]",
+                  "label": "Patient.Nationality_GeoInfo",
+                  "type": "expression"
+                },
+                "locationDefault": "=[Customers.Country_GeoInfo]",
+                "locationNamesAuto": true,
+                "locationType": "",
+                "locationCountry": {
+                  "key": "",
+                  "label": "",
+                  "type": ""
+                },
+                "locationAdmin1": {
+                  "key": "",
+                  "label": "",
+                  "type": ""
+                },
+                "locationAdmin2": {
+                  "key": "",
+                  "label": "",
+                  "type": ""
+                },
+                "maxObjects": 1000,
+                "showLayer": true,
+                "hideCalcCond": false,
+                "exclFromAutozoom": false,
+                "layerSelectionsDisabled": false,
+                "color": {
+                  "outline": {
+                    "index": -1,
+                    "color": "#7b7a78"
+                  },
+                  "outlineOpacity": 1,
+                  "opacity": 1,
+                  "auto": false,
+                  "mode": "primary",
+                  "paletteColor": {
+                    "index": 6,
+                    "color": "#4477aa"
+                  },
+                  "measureScheme": "sg",
+                  "dimensionScheme": "12",
+                  "colorExpression": "",
+                  "expressionIsColor": true,
+                  "measureMin": 0,
+                  "measureMax": 10
+                },
+                "displayLegend": "auto",
+                "showSizeLegend": true,
+                "showToolTip": true,
+                "showInAllLevels": true,
+                "zoomRange": [
+                  0,
+                  20
+                ],
+                "showPopUp": true,
+                "displayUnselected": false,
+                "label": {
+                  "show": false,
+                  "expression": {
+                    "key": "Nationality",
+                    "label": "dimension.qDef.qFieldDefs[0]",
+                    "type": "expression"
+                  },
+                  "position": "TOP",
+                  "showInAllLevels": true,
+                  "visibleRange": [
+                    0,
+                    20
+                  ]
+                },
+                "drillDown": {
+                  "auto": true,
+                  "showLevel0": true,
+                  "showLevel1": true,
+                  "showLevel2": true,
+                  "showLevel3": true,
+                  "showLevel4": true,
+                  "showLevel5": true,
+                  "showLevel6": true,
+                  "showLevel7": true
+                },
+                "qHyperCubeDef": {
+                  "qDimensions": [
+                    {
+                      "qDef": {
+                        "qGrouping": "N",
+                        "qFieldDefs": [
+                          "[Nationality]"
+                        ],
+                        "qFieldLabels": [
+                          "Nationality"
+                        ],
+                        "qSortCriterias": [],
+                        "qNumberPresentations": [],
+                        "qActiveField": 0,
+                        "cId": "dd0"
+                      },
+                      "qOtherTotalSpec": {
+                        "qOtherMode": "OTHER_OFF",
+                        "qOtherCounted": {},
+                        "qOtherLimit": {},
+                        "qOtherLimitMode": "OTHER_GT_LIMIT",
+                        "qForceBadValueKeeping": true,
+                        "qApplyEvenWhenPossiblyWrongResult": true,
+                        "qOtherSortMode": "OTHER_SORT_DESCENDING",
+                        "qTotalMode": "TOTAL_OFF",
+                        "qReferencedExpression": {}
+                      },
+                      "qOtherLabel": {},
+                      "qTotalLabel": {},
+                      "qCalcCond": {},
+                      "qAttributeExpressions": [],
+                      "qAttributeDimensions": [],
+                      "qCalcCondition": {
+                        "qCond": {},
+                        "qMsg": {}
+                      }
+                    }
+                  ],
+                  "qMeasures": [],
+                  "qInterColumnSortOrder": [],
+                  "qInitialDataFetch": [],
+                  "qReductionMode": "N",
+                  "qMode": "S",
+                  "qPseudoDimPos": -1,
+                  "qNoOfLeftDims": -1,
+                  "qMaxStackedCells": 5000,
+                  "qCalcCond": {},
+                  "qTitle": {},
+                  "qCalcCondition": {
+                    "qCond": {},
+                    "qMsg": {}
+                  },
+                  "qColumnOrder": [],
+                  "qExpansionState": []
+                },
+                "tooltip": {
+                  "auto": true,
+                  "data": {
+                    "qHyperCubeDef": {
+                      "qDimensions": [],
+                      "qMeasures": [],
+                      "qInterColumnSortOrder": [],
+                      "qInitialDataFetch": [
+                        {
+                          "qLeft": 0,
+                          "qTop": 0,
+                          "qWidth": 1,
+                          "qHeight": 0
+                        }
+                      ],
+                      "qReductionMode": "N",
+                      "qMode": "S",
+                      "qPseudoDimPos": -1,
+                      "qNoOfLeftDims": -1,
+                      "qMaxStackedCells": 5000,
+                      "qCalcCond": {},
+                      "qTitle": {},
+                      "qCalcCondition": {
+                        "qCond": {},
+                        "qMsg": {}
+                      },
+                      "qColumnOrder": [],
+                      "qExpansionState": []
+                    }
+                  }
+                }
+              }
+            ],
+            "mapSettings": {
+              "_layerType": "",
+              "baseMap": "default",
+              "projection": "default",
+              "mapLanguage": "auto",
+              "useImperialUnits": false,
+              "selectionType": "lasso",
+              "initialView": null,
+              "showLegend": true,
+              "sidebarAlignment": "auto",
+              "showFindLocationButton": false,
+              "showScaleBar": true,
+              "zoomLimitSwitch": false,
+              "zoomLimit": {
+                "range": [
+                  0,
+                  20
+                ]
+              },
+              "panLimitSwitch": false,
+              "panLimits": null,
+              "showDebugInfo": false
+            },
+            "autoZoomOnSelection": true,
+            "showTitles": true,
+            "title": "",
+            "subtitle": "",
+            "footnote": "",
+            "disableNavMenu": false,
+            "showDetails": false,
+            "qStateName": "",
+            "navigation": false,
+            "qInfo": {
+              "qType": "map"
+            },
+            "visualization": "map",
+            "gaVersion": 2,
+            "layers": [],
+            "components": [],
+            "recommendation": {
+              "chartType": "map",
+              "options": {
+                "visualization": "map",
+                "gaVersion": 2,
+                "gaLayers": [
+                  {
+                    "type": "AreaLayer",
+                    "cId": "cao_geoAreaLayer",
+                    "locationOrLatitude": {
+                      "key": "=[Patient.Nationality_GeoInfo]",
+                      "label": "Patient.Nationality_GeoInfo",
+                      "type": "expression"
+                    },
+                    "locationDefault": "=[Customers.Country_GeoInfo]",
+                    "locationNamesAuto": true,
+                    "locationType": "",
+                    "locationCountry": {
+                      "key": "",
+                      "label": "",
+                      "type": ""
+                    },
+                    "locationAdmin1": {
+                      "key": "",
+                      "label": "",
+                      "type": ""
+                    },
+                    "locationAdmin2": {
+                      "key": "",
+                      "label": "",
+                      "type": ""
+                    },
+                    "maxObjects": 1000,
+                    "showLayer": true,
+                    "hideCalcCond": false,
+                    "exclFromAutozoom": false,
+                    "layerSelectionsDisabled": false,
+                    "color": {
+                      "outline": {
+                        "index": -1,
+                        "color": "#7b7a78"
+                      },
+                      "outlineOpacity": 1,
+                      "opacity": 1,
+                      "auto": false,
+                      "mode": "primary",
+                      "paletteColor": {
+                        "index": 6,
+                        "color": "#4477aa"
+                      },
+                      "measureScheme": "sg",
+                      "dimensionScheme": "12",
+                      "colorExpression": "",
+                      "expressionIsColor": true,
+                      "measureMin": 0,
+                      "measureMax": 10
+                    },
+                    "displayLegend": "auto",
+                    "showSizeLegend": true,
+                    "showToolTip": true,
+                    "showInAllLevels": true,
+                    "zoomRange": [
+                      0,
+                      20
+                    ],
+                    "showPopUp": true,
+                    "displayUnselected": false,
+                    "label": {
+                      "show": false,
+                      "expression": {
+                        "key": "Nationality",
+                        "label": "dimension.qDef.qFieldDefs[0]",
+                        "type": "expression"
+                      },
+                      "position": "TOP",
+                      "showInAllLevels": true,
+                      "visibleRange": [
+                        0,
+                        20
+                      ]
+                    },
+                    "drillDown": {
+                      "auto": true,
+                      "showLevel0": true,
+                      "showLevel1": true,
+                      "showLevel2": true,
+                      "showLevel3": true,
+                      "showLevel4": true,
+                      "showLevel5": true,
+                      "showLevel6": true,
+                      "showLevel7": true
+                    },
+                    "qHyperCubeDef": {
+                      "qDimensions": [
+                        {
+                          "qDef": {
+                            "qGrouping": "N",
+                            "qFieldDefs": [
+                              "[Nationality]"
+                            ],
+                            "qFieldLabels": [
+                              "Nationality"
+                            ],
+                            "qSortCriterias": [],
+                            "qNumberPresentations": [],
+                            "qActiveField": 0,
+                            "cId": "dd0"
+                          },
+                          "qOtherTotalSpec": {
+                            "qOtherMode": "OTHER_OFF",
+                            "qOtherCounted": {},
+                            "qOtherLimit": {},
+                            "qOtherLimitMode": "OTHER_GT_LIMIT",
+                            "qForceBadValueKeeping": true,
+                            "qApplyEvenWhenPossiblyWrongResult": true,
+                            "qOtherSortMode": "OTHER_SORT_DESCENDING",
+                            "qTotalMode": "TOTAL_OFF",
+                            "qReferencedExpression": {}
+                          },
+                          "qOtherLabel": {},
+                          "qTotalLabel": {},
+                          "qCalcCond": {},
+                          "qAttributeExpressions": [],
+                          "qAttributeDimensions": [],
+                          "qCalcCondition": {
+                            "qCond": {},
+                            "qMsg": {}
+                          }
+                        }
+                      ],
+                      "qMeasures": [],
+                      "qInterColumnSortOrder": [],
+                      "qInitialDataFetch": [],
+                      "qReductionMode": "N",
+                      "qMode": "S",
+                      "qPseudoDimPos": -1,
+                      "qNoOfLeftDims": -1,
+                      "qMaxStackedCells": 5000,
+                      "qCalcCond": {},
+                      "qTitle": {},
+                      "qCalcCondition": {
+                        "qCond": {},
+                        "qMsg": {}
+                      },
+                      "qColumnOrder": [],
+                      "qExpansionState": []
+                    },
+                    "tooltip": {
+                      "auto": true,
+                      "data": {
+                        "qHyperCubeDef": {
+                          "qDimensions": [],
+                          "qMeasures": [],
+                          "qInterColumnSortOrder": [],
+                          "qInitialDataFetch": [
+                            {
+                              "qLeft": 0,
+                              "qTop": 0,
+                              "qWidth": 1,
+                              "qHeight": 0
+                            }
+                          ],
+                          "qReductionMode": "N",
+                          "qMode": "S",
+                          "qPseudoDimPos": -1,
+                          "qNoOfLeftDims": -1,
+                          "qMaxStackedCells": 5000,
+                          "qCalcCond": {},
+                          "qTitle": {},
+                          "qCalcCondition": {
+                            "qCond": {},
+                            "qMsg": {}
+                          },
+                          "qColumnOrder": [],
+                          "qExpansionState": []
+                        }
+                      }
+                    }
+                  }
+                ],
+                "mapSettings": {
+                  "_layerType": "",
+                  "baseMap": "default",
+                  "projection": "default",
+                  "mapLanguage": "auto",
+                  "useImperialUnits": false,
+                  "selectionType": "lasso",
+                  "initialView": null,
+                  "showLegend": true,
+                  "sidebarAlignment": "auto",
+                  "showFindLocationButton": false,
+                  "showScaleBar": true,
+                  "zoomLimitSwitch": false,
+                  "zoomLimit": {
+                    "range": [
+                      0,
+                      20
+                    ]
+                  },
+                  "panLimitSwitch": false,
+                  "panLimits": null,
+                  "showDebugInfo": false
+                },
+                "components": []
+              },
+              "analysis": {
+                "analysis": "geoAnalysis",
+                "analysisGroup": "breakdown",
+                "title": "Values for Nationality",
+                "titleTemplate": [
+                  {
+                    "msgId": "cao.chart.values.title",
+                    "msgParams": {
+                      "$$1": 0
+                    }
+                  },
+                  {
+                    "msgId": "cao.chart.values.title",
+                    "msgParams": {
+                      "$$2": 0
+                    }
+                  }
+                ],
+                "dims": [
+                  {
+                    "expr": "[Nationality]",
+                    "cType": "eField",
+                    "field": "Nationality",
+                    "locationInfo": {
+                      "expr": "=[Patient.Nationality_GeoInfo]",
+                      "mapLayer": "AreaLayer",
+                      "field": "Patient.Nationality_GeoInfo"
+                    },
+                    "fieldStats": {
+                      "distinctCount": 122,
+                      "dataType": "string"
+                    }
+                  }
+                ],
+                "msrs": []
+              },
+              "isExtendedAnalysis": false,
+              "matchRecord": {
+                "analysisPrecedentId": "P-GeoMixed-SlotGroup",
+                "matches": [
+                  {
+                    "slot": "$$1",
+                    "slotRole": "dimension",
+                    "field": "Nationality"
+                  }
+                ],
+                "precedentStats": {
+                  "matchedFields": 0,
+                  "uniquePrecedents": 0
+                },
+                "visType": "map"
+              },
+              "relevance": 1,
+              "analysisIntentRelevance": 0.27,
+              "alternativeVisualizations": [
+                {
+                  "chartType": "piechart",
+                  "options": {
+                    "dataPoint": {
+                      "show": true,
+                      "showLabels": true
+                    },
+                    "legend": {
+                      "show": false
+                    },
+                    "qHyperCubeDef": {
+                      "qDimensions": [
+                        {
+                          "qDef": {
+                            "qGrouping": "N",
+                            "qFieldDefs": [
+                              "[Nationality]"
+                            ],
+                            "qFieldLabels": [
+                              "Nationality"
+                            ],
+                            "qSortCriterias": [],
+                            "qNumberPresentations": [],
+                            "qActiveField": 0,
+                            "cId": "dd0"
+                          },
+                          "qOtherTotalSpec": {
+                            "qOtherMode": "OTHER_OFF",
+                            "qOtherCounted": {},
+                            "qOtherLimit": {},
+                            "qOtherLimitMode": "OTHER_GT_LIMIT",
+                            "qForceBadValueKeeping": true,
+                            "qApplyEvenWhenPossiblyWrongResult": true,
+                            "qOtherSortMode": "OTHER_SORT_DESCENDING",
+                            "qTotalMode": "TOTAL_OFF",
+                            "qReferencedExpression": {}
+                          },
+                          "qOtherLabel": {},
+                          "qTotalLabel": {},
+                          "qCalcCond": {},
+                          "qAttributeExpressions": [],
+                          "qAttributeDimensions": [],
+                          "qCalcCondition": {
+                            "qCond": {},
+                            "qMsg": {}
+                          }
+                        }
+                      ],
+                      "qMeasures": [],
+                      "qInterColumnSortOrder": [],
+                      "qInitialDataFetch": [],
+                      "qReductionMode": "N",
+                      "qMode": "S",
+                      "qPseudoDimPos": -1,
+                      "qNoOfLeftDims": -1,
+                      "qMaxStackedCells": 5000,
+                      "qCalcCond": {},
+                      "qTitle": {},
+                      "qCalcCondition": {
+                        "qCond": {},
+                        "qMsg": {}
+                      },
+                      "qColumnOrder": [],
+                      "qExpansionState": []
+                    },
+                    "components": [],
+                    "title": "Values for Nationality"
+                  },
+                  "analysis": {
+                    "analysis": "geoAnalysis",
+                    "analysisGroup": "breakdown",
+                    "title": "Values for Nationality",
+                    "titleTemplate": [
+                      {
+                        "msgId": "cao.chart.values.title",
+                        "msgParams": {
+                          "$$1": 0
+                        }
+                      },
+                      {
+                        "msgId": "cao.chart.values.title",
+                        "msgParams": {
+                          "$$2": 0
+                        }
+                      }
+                    ],
+                    "dims": [
+                      {
+                        "expr": "[Nationality]",
+                        "cType": "eField",
+                        "field": "Nationality",
+                        "locationInfo": {
+                          "expr": "=[Patient.Nationality_GeoInfo]",
+                          "mapLayer": "AreaLayer",
+                          "field": "Patient.Nationality_GeoInfo"
+                        },
+                        "fieldStats": {
+                          "distinctCount": 122,
+                          "dataType": "string"
+                        }
+                      }
+                    ],
+                    "msrs": []
+                  },
+                  "isExtendedAnalysis": false,
+                  "matchRecord": {
+                    "analysisPrecedentId": "P-GeoMixed-SlotGroup",
+                    "matches": [
+                      {
+                        "slot": "$$1",
+                        "slotRole": "dimension",
+                        "field": "Nationality"
+                      }
+                    ],
+                    "precedentStats": {
+                      "matchedFields": 0,
+                      "uniquePrecedents": 0
+                    },
+                    "visType": "piechart",
+                    "altVisId": "A-PieChart"
+                  },
+                  "relevance": 1,
+                  "analysisIntentRelevance": 0.27,
+                  "isRecommendedAlternative": false,
+                  "altVisId": "A-PieChart"
+                },
+                {
+                  "chartType": "qlik-funnel-chart-ext",
+                  "options": {
+                    "legend": {
+                      "show": false
+                    },
+                    "labels": {
+                      "auto": true,
+                      "headers": true,
+                      "overlay": true,
+                      "leaves": true,
+                      "values": true
+                    },
+                    "qHyperCubeDef": {
+                      "qDimensions": [
+                        {
+                          "qDef": {
+                            "qGrouping": "N",
+                            "qFieldDefs": [
+                              "[Nationality]"
+                            ],
+                            "qFieldLabels": [
+                              "Nationality"
+                            ],
+                            "qSortCriterias": [],
+                            "qNumberPresentations": [],
+                            "qActiveField": 0,
+                            "cId": "dd0"
+                          },
+                          "qOtherTotalSpec": {
+                            "qOtherMode": "OTHER_OFF",
+                            "qOtherCounted": {},
+                            "qOtherLimit": {},
+                            "qOtherLimitMode": "OTHER_GT_LIMIT",
+                            "qForceBadValueKeeping": true,
+                            "qApplyEvenWhenPossiblyWrongResult": true,
+                            "qOtherSortMode": "OTHER_SORT_DESCENDING",
+                            "qTotalMode": "TOTAL_OFF",
+                            "qReferencedExpression": {}
+                          },
+                          "qOtherLabel": {},
+                          "qTotalLabel": {},
+                          "qCalcCond": {},
+                          "qAttributeExpressions": [],
+                          "qAttributeDimensions": [],
+                          "qCalcCondition": {
+                            "qCond": {},
+                            "qMsg": {}
+                          }
+                        }
+                      ],
+                      "qMeasures": [],
+                      "qInterColumnSortOrder": [],
+                      "qInitialDataFetch": [],
+                      "qReductionMode": "N",
+                      "qMode": "S",
+                      "qPseudoDimPos": -1,
+                      "qNoOfLeftDims": -1,
+                      "qMaxStackedCells": 5000,
+                      "qCalcCond": {},
+                      "qTitle": {},
+                      "qCalcCondition": {
+                        "qCond": {},
+                        "qMsg": {}
+                      },
+                      "qColumnOrder": [],
+                      "qExpansionState": []
+                    },
+                    "components": [],
+                    "title": "Values for Nationality"
+                  },
+                  "analysis": {
+                    "analysis": "geoAnalysis",
+                    "analysisGroup": "breakdown",
+                    "title": "Values for Nationality",
+                    "titleTemplate": [
+                      {
+                        "msgId": "cao.chart.values.title",
+                        "msgParams": {
+                          "$$1": 0
+                        }
+                      },
+                      {
+                        "msgId": "cao.chart.values.title",
+                        "msgParams": {
+                          "$$2": 0
+                        }
+                      }
+                    ],
+                    "dims": [
+                      {
+                        "expr": "[Nationality]",
+                        "cType": "eField",
+                        "field": "Nationality",
+                        "locationInfo": {
+                          "expr": "=[Patient.Nationality_GeoInfo]",
+                          "mapLayer": "AreaLayer",
+                          "field": "Patient.Nationality_GeoInfo"
+                        },
+                        "fieldStats": {
+                          "distinctCount": 122,
+                          "dataType": "string"
+                        }
+                      }
+                    ],
+                    "msrs": []
+                  },
+                  "isExtendedAnalysis": false,
+                  "matchRecord": {
+                    "analysisPrecedentId": "P-GeoMixed-SlotGroup",
+                    "matches": [
+                      {
+                        "slot": "$$1",
+                        "slotRole": "dimension",
+                        "field": "Nationality"
+                      }
+                    ],
+                    "precedentStats": {
+                      "matchedFields": 0,
+                      "uniquePrecedents": 0
+                    },
+                    "visType": "qlik-funnel-chart-ext",
+                    "altVisId": "A-funnel-chart"
+                  },
+                  "relevance": 1,
+                  "analysisIntentRelevance": 0.27,
+                  "isRecommendedAlternative": false,
+                  "altVisId": "A-funnel-chart"
+                },
+                {
+                  "chartType": "qlik-multi-kpi",
+                  "options": {
+                    "legend": {
+                      "show": false
+                    },
+                    "options": {
+                      "dimShowAs": "card",
+                      "size": "tiny"
+                    },
+                    "labels": {
+                      "auto": true,
+                      "headers": true,
+                      "overlay": true,
+                      "leaves": true,
+                      "values": true
+                    },
+                    "qHyperCubeDef": {
+                      "qDimensions": [
+                        {
+                          "qDef": {
+                            "qGrouping": "N",
+                            "qFieldDefs": [
+                              "[Nationality]"
+                            ],
+                            "qFieldLabels": [
+                              "Nationality"
+                            ],
+                            "qSortCriterias": [],
+                            "qNumberPresentations": [],
+                            "qActiveField": 0,
+                            "cId": "dd0"
+                          },
+                          "qOtherTotalSpec": {
+                            "qOtherMode": "OTHER_OFF",
+                            "qOtherCounted": {},
+                            "qOtherLimit": {},
+                            "qOtherLimitMode": "OTHER_GT_LIMIT",
+                            "qForceBadValueKeeping": true,
+                            "qApplyEvenWhenPossiblyWrongResult": true,
+                            "qOtherSortMode": "OTHER_SORT_DESCENDING",
+                            "qTotalMode": "TOTAL_OFF",
+                            "qReferencedExpression": {}
+                          },
+                          "qOtherLabel": {},
+                          "qTotalLabel": {},
+                          "qCalcCond": {},
+                          "qAttributeExpressions": [],
+                          "qAttributeDimensions": [],
+                          "qCalcCondition": {
+                            "qCond": {},
+                            "qMsg": {}
+                          }
+                        }
+                      ],
+                      "qMeasures": [],
+                      "qInterColumnSortOrder": [],
+                      "qInitialDataFetch": [],
+                      "qReductionMode": "N",
+                      "qMode": "S",
+                      "qPseudoDimPos": -1,
+                      "qNoOfLeftDims": -1,
+                      "qMaxStackedCells": 5000,
+                      "qCalcCond": {},
+                      "qTitle": {},
+                      "qCalcCondition": {
+                        "qCond": {},
+                        "qMsg": {}
+                      },
+                      "qColumnOrder": [],
+                      "qExpansionState": []
+                    },
+                    "components": [],
+                    "title": "Values for Nationality"
+                  },
+                  "analysis": {
+                    "analysis": "geoAnalysis",
+                    "analysisGroup": "breakdown",
+                    "title": "Values for Nationality",
+                    "titleTemplate": [
+                      {
+                        "msgId": "cao.chart.values.title",
+                        "msgParams": {
+                          "$$1": 0
+                        }
+                      },
+                      {
+                        "msgId": "cao.chart.values.title",
+                        "msgParams": {
+                          "$$2": 0
+                        }
+                      }
+                    ],
+                    "dims": [
+                      {
+                        "expr": "[Nationality]",
+                        "cType": "eField",
+                        "field": "Nationality",
+                        "locationInfo": {
+                          "expr": "=[Patient.Nationality_GeoInfo]",
+                          "mapLayer": "AreaLayer",
+                          "field": "Patient.Nationality_GeoInfo"
+                        },
+                        "fieldStats": {
+                          "distinctCount": 122,
+                          "dataType": "string"
+                        }
+                      }
+                    ],
+                    "msrs": []
+                  },
+                  "isExtendedAnalysis": false,
+                  "matchRecord": {
+                    "analysisPrecedentId": "P-GeoMixed-SlotGroup",
+                    "matches": [
+                      {
+                        "slot": "$$1",
+                        "slotRole": "dimension",
+                        "field": "Nationality"
+                      }
+                    ],
+                    "precedentStats": {
+                      "matchedFields": 0,
+                      "uniquePrecedents": 0
+                    },
+                    "visType": "qlik-multi-kpi",
+                    "altVisId": "A-multi-kpi"
+                  },
+                  "relevance": 1,
+                  "analysisIntentRelevance": 0.27,
+                  "isRecommendedAlternative": false,
+                  "altVisId": "A-multi-kpi"
+                },
+                {
+                  "chartType": "qlik-sankey-chart-ext",
+                  "options": {
+                    "legend": {
+                      "show": false
+                    },
+                    "labels": {
+                      "auto": true,
+                      "headers": true,
+                      "overlay": true,
+                      "leaves": true,
+                      "values": true
+                    },
+                    "qHyperCubeDef": {
+                      "qDimensions": [
+                        {
+                          "qDef": {
+                            "qGrouping": "N",
+                            "qFieldDefs": [
+                              "[Nationality]"
+                            ],
+                            "qFieldLabels": [
+                              "Nationality"
+                            ],
+                            "qSortCriterias": [],
+                            "qNumberPresentations": [],
+                            "qActiveField": 0,
+                            "cId": "dd0"
+                          },
+                          "qOtherTotalSpec": {
+                            "qOtherMode": "OTHER_OFF",
+                            "qOtherCounted": {},
+                            "qOtherLimit": {},
+                            "qOtherLimitMode": "OTHER_GT_LIMIT",
+                            "qForceBadValueKeeping": true,
+                            "qApplyEvenWhenPossiblyWrongResult": true,
+                            "qOtherSortMode": "OTHER_SORT_DESCENDING",
+                            "qTotalMode": "TOTAL_OFF",
+                            "qReferencedExpression": {}
+                          },
+                          "qOtherLabel": {},
+                          "qTotalLabel": {},
+                          "qCalcCond": {},
+                          "qAttributeExpressions": [],
+                          "qAttributeDimensions": [],
+                          "qCalcCondition": {
+                            "qCond": {},
+                            "qMsg": {}
+                          }
+                        }
+                      ],
+                      "qMeasures": [],
+                      "qInterColumnSortOrder": [],
+                      "qInitialDataFetch": [],
+                      "qReductionMode": "N",
+                      "qMode": "S",
+                      "qPseudoDimPos": -1,
+                      "qNoOfLeftDims": -1,
+                      "qMaxStackedCells": 5000,
+                      "qCalcCond": {},
+                      "qTitle": {},
+                      "qCalcCondition": {
+                        "qCond": {},
+                        "qMsg": {}
+                      },
+                      "qColumnOrder": [],
+                      "qExpansionState": []
+                    },
+                    "components": [],
+                    "title": "Values for Nationality"
+                  },
+                  "analysis": {
+                    "analysis": "geoAnalysis",
+                    "analysisGroup": "breakdown",
+                    "title": "Values for Nationality",
+                    "titleTemplate": [
+                      {
+                        "msgId": "cao.chart.values.title",
+                        "msgParams": {
+                          "$$1": 0
+                        }
+                      },
+                      {
+                        "msgId": "cao.chart.values.title",
+                        "msgParams": {
+                          "$$2": 0
+                        }
+                      }
+                    ],
+                    "dims": [
+                      {
+                        "expr": "[Nationality]",
+                        "cType": "eField",
+                        "field": "Nationality",
+                        "locationInfo": {
+                          "expr": "=[Patient.Nationality_GeoInfo]",
+                          "mapLayer": "AreaLayer",
+                          "field": "Patient.Nationality_GeoInfo"
+                        },
+                        "fieldStats": {
+                          "distinctCount": 122,
+                          "dataType": "string"
+                        }
+                      }
+                    ],
+                    "msrs": []
+                  },
+                  "isExtendedAnalysis": false,
+                  "matchRecord": {
+                    "analysisPrecedentId": "P-GeoMixed-SlotGroup",
+                    "matches": [
+                      {
+                        "slot": "$$1",
+                        "slotRole": "dimension",
+                        "field": "Nationality"
+                      }
+                    ],
+                    "precedentStats": {
+                      "matchedFields": 0,
+                      "uniquePrecedents": 0
+                    },
+                    "visType": "qlik-sankey-chart-ext",
+                    "altVisId": "A-sankey-chart"
+                  },
+                  "relevance": 1,
+                  "analysisIntentRelevance": 0.27,
+                  "isRecommendedAlternative": false,
+                  "altVisId": "A-sankey-chart"
+                },
+                {
+                  "chartType": "mekkochart",
+                  "options": {
+                    "legend": {
+                      "show": false
+                    },
+                    "labels": {
+                      "auto": true,
+                      "headers": true,
+                      "overlay": true,
+                      "leaves": true,
+                      "values": true
+                    },
+                    "qHyperCubeDef": {
+                      "qDimensions": [
+                        {
+                          "qDef": {
+                            "qGrouping": "N",
+                            "qFieldDefs": [
+                              "[Nationality]"
+                            ],
+                            "qFieldLabels": [
+                              "Nationality"
+                            ],
+                            "qSortCriterias": [
+                              {
+                                "qSortByNumeric": 1,
+                                "qSortByAscii": 1,
+                                "qSortByLoadOrder": 1,
+                                "qSortByExpression": 1,
+                                "qExpression": {}
+                              }
+                            ],
+                            "qNumberPresentations": [],
+                            "qActiveField": 0,
+                            "cId": "dd0",
+                            "autoSort": false
+                          },
+                          "qOtherTotalSpec": {
+                            "qOtherMode": "OTHER_OFF",
+                            "qOtherCounted": {},
+                            "qOtherLimit": {},
+                            "qOtherLimitMode": "OTHER_GT_LIMIT",
+                            "qForceBadValueKeeping": true,
+                            "qApplyEvenWhenPossiblyWrongResult": true,
+                            "qOtherSortMode": "OTHER_SORT_DESCENDING",
+                            "qTotalMode": "TOTAL_OFF",
+                            "qReferencedExpression": {}
+                          },
+                          "qOtherLabel": {},
+                          "qTotalLabel": {},
+                          "qCalcCond": {},
+                          "qAttributeExpressions": [],
+                          "qAttributeDimensions": [],
+                          "qCalcCondition": {
+                            "qCond": {},
+                            "qMsg": {}
+                          }
+                        }
+                      ],
+                      "qMeasures": [],
+                      "qInterColumnSortOrder": [],
+                      "qInitialDataFetch": [],
+                      "qReductionMode": "N",
+                      "qMode": "S",
+                      "qPseudoDimPos": -1,
+                      "qNoOfLeftDims": -1,
+                      "qMaxStackedCells": 5000,
+                      "qCalcCond": {},
+                      "qTitle": {},
+                      "qCalcCondition": {
+                        "qCond": {},
+                        "qMsg": {}
+                      },
+                      "qColumnOrder": [],
+                      "qExpansionState": []
+                    },
+                    "components": [],
+                    "title": "Values for Nationality"
+                  },
+                  "analysis": {
+                    "analysis": "geoAnalysis",
+                    "analysisGroup": "breakdown",
+                    "title": "Values for Nationality",
+                    "titleTemplate": [
+                      {
+                        "msgId": "cao.chart.values.title",
+                        "msgParams": {
+                          "$$1": 0
+                        }
+                      },
+                      {
+                        "msgId": "cao.chart.values.title",
+                        "msgParams": {
+                          "$$2": 0
+                        }
+                      }
+                    ],
+                    "dims": [
+                      {
+                        "expr": "[Nationality]",
+                        "cType": "eField",
+                        "field": "Nationality",
+                        "locationInfo": {
+                          "expr": "=[Patient.Nationality_GeoInfo]",
+                          "mapLayer": "AreaLayer",
+                          "field": "Patient.Nationality_GeoInfo"
+                        },
+                        "fieldStats": {
+                          "distinctCount": 122,
+                          "dataType": "string"
+                        }
+                      }
+                    ],
+                    "msrs": [],
+                    "sorting": {
+                      "dims": [
+                        {
+                          "numerically": true,
+                          "order": "asc",
+                          "index": 0
+                        },
+                        {
+                          "numerically": true,
+                          "order": "asc",
+                          "index": 1
+                        }
+                      ],
+                      "msrs": []
+                    },
+                    "limit": {
+                      "maxNum": "off"
+                    }
+                  },
+                  "isExtendedAnalysis": false,
+                  "matchRecord": {
+                    "analysisPrecedentId": "P-GeoMixed-SlotGroup",
+                    "matches": [
+                      {
+                        "slot": "$$1",
+                        "slotRole": "dimension",
+                        "field": "Nationality"
+                      }
+                    ],
+                    "precedentStats": {
+                      "matchedFields": 0,
+                      "uniquePrecedents": 0
+                    },
+                    "visType": "mekkochart",
+                    "altVisId": "A-mekko-chart"
+                  },
+                  "relevance": 1,
+                  "analysisIntentRelevance": 0.27,
+                  "isRecommendedAlternative": false,
+                  "altVisId": "A-mekko-chart"
+                },
+                {
+                  "chartType": "qlik-heatmap-chart",
+                  "options": {
+                    "legend": {
+                      "show": false
+                    },
+                    "labels": {
+                      "auto": true,
+                      "headers": true,
+                      "overlay": true,
+                      "leaves": true,
+                      "values": true
+                    },
+                    "qHyperCubeDef": {
+                      "qDimensions": [
+                        {
+                          "qDef": {
+                            "qGrouping": "N",
+                            "qFieldDefs": [
+                              "[Nationality]"
+                            ],
+                            "qFieldLabels": [
+                              "Nationality"
+                            ],
+                            "qSortCriterias": [],
+                            "qNumberPresentations": [],
+                            "qActiveField": 0,
+                            "cId": "dd0"
+                          },
+                          "qOtherTotalSpec": {
+                            "qOtherMode": "OTHER_OFF",
+                            "qOtherCounted": {},
+                            "qOtherLimit": {},
+                            "qOtherLimitMode": "OTHER_GT_LIMIT",
+                            "qForceBadValueKeeping": true,
+                            "qApplyEvenWhenPossiblyWrongResult": true,
+                            "qOtherSortMode": "OTHER_SORT_DESCENDING",
+                            "qTotalMode": "TOTAL_OFF",
+                            "qReferencedExpression": {}
+                          },
+                          "qOtherLabel": {},
+                          "qTotalLabel": {},
+                          "qCalcCond": {},
+                          "qAttributeExpressions": [],
+                          "qAttributeDimensions": [],
+                          "qCalcCondition": {
+                            "qCond": {},
+                            "qMsg": {}
+                          }
+                        }
+                      ],
+                      "qMeasures": [],
+                      "qInterColumnSortOrder": [],
+                      "qInitialDataFetch": [],
+                      "qReductionMode": "N",
+                      "qMode": "S",
+                      "qPseudoDimPos": -1,
+                      "qNoOfLeftDims": -1,
+                      "qMaxStackedCells": 5000,
+                      "qCalcCond": {},
+                      "qTitle": {},
+                      "qCalcCondition": {
+                        "qCond": {},
+                        "qMsg": {}
+                      },
+                      "qColumnOrder": [],
+                      "qExpansionState": []
+                    },
+                    "components": [],
+                    "title": "Values for Nationality"
+                  },
+                  "analysis": {
+                    "analysis": "geoAnalysis",
+                    "analysisGroup": "breakdown",
+                    "title": "Values for Nationality",
+                    "titleTemplate": [
+                      {
+                        "msgId": "cao.chart.values.title",
+                        "msgParams": {
+                          "$$1": 0
+                        }
+                      },
+                      {
+                        "msgId": "cao.chart.values.title",
+                        "msgParams": {
+                          "$$2": 0
+                        }
+                      }
+                    ],
+                    "dims": [
+                      {
+                        "expr": "[Nationality]",
+                        "cType": "eField",
+                        "field": "Nationality",
+                        "locationInfo": {
+                          "expr": "=[Patient.Nationality_GeoInfo]",
+                          "mapLayer": "AreaLayer",
+                          "field": "Patient.Nationality_GeoInfo"
+                        },
+                        "fieldStats": {
+                          "distinctCount": 122,
+                          "dataType": "string"
+                        }
+                      }
+                    ],
+                    "msrs": []
+                  },
+                  "isExtendedAnalysis": false,
+                  "matchRecord": {
+                    "analysisPrecedentId": "P-GeoMixed-SlotGroup",
+                    "matches": [
+                      {
+                        "slot": "$$1",
+                        "slotRole": "dimension",
+                        "field": "Nationality"
+                      }
+                    ],
+                    "precedentStats": {
+                      "matchedFields": 0,
+                      "uniquePrecedents": 0
+                    },
+                    "visType": "qlik-heatmap-chart",
+                    "altVisId": "A-heatmap-chart"
+                  },
+                  "relevance": 1,
+                  "analysisIntentRelevance": 0.27,
+                  "isRecommendedAlternative": false,
+                  "altVisId": "A-heatmap-chart"
+                }
+              ]
+            },
+            "qUndoExclude": {
+              "hashCode": 900740694,
+              "gaLayers": [
+                {
+                  "qHyperCubeDef": {
+                    "qDimensions": [
+                      {
+                        "qDef": {
+                          "qGrouping": "N",
+                          "qFieldDefs": [
+                            "[Nationality]"
+                          ],
+                          "qFieldLabels": [
+                            "Nationality"
+                          ],
+                          "qSortCriterias": [],
+                          "qNumberPresentations": [],
+                          "qActiveField": 0,
+                          "cId": "dd0"
+                        },
+                        "qOtherTotalSpec": {
+                          "qOtherMode": "OTHER_OFF",
+                          "qOtherCounted": {},
+                          "qOtherLimit": {},
+                          "qOtherLimitMode": "OTHER_GT_LIMIT",
+                          "qForceBadValueKeeping": true,
+                          "qApplyEvenWhenPossiblyWrongResult": true,
+                          "qOtherSortMode": "OTHER_SORT_DESCENDING",
+                          "qTotalMode": "TOTAL_OFF",
+                          "qReferencedExpression": {}
+                        },
+                        "qOtherLabel": {},
+                        "qTotalLabel": {},
+                        "qCalcCond": {},
+                        "qAttributeExpressions": [
+                          {
+                            "qExpression": "=[Patient.Nationality_GeoInfo]",
+                            "id": "locationOrLatitude"
+                          }
+                        ],
+                        "qAttributeDimensions": [],
+                        "qCalcCondition": {
+                          "qCond": {},
+                          "qMsg": {}
+                        }
+                      }
+                    ],
+                    "qMeasures": [],
+                    "qInterColumnSortOrder": [],
+                    "qInitialDataFetch": [
+                      {
+                        "qLeft": 0,
+                        "qTop": 0,
+                        "qWidth": 1,
+                        "qHeight": 1000
+                      }
+                    ],
+                    "qReductionMode": "N",
+                    "qMode": "S",
+                    "qPseudoDimPos": -1,
+                    "qNoOfLeftDims": -1,
+                    "qMaxStackedCells": 5000,
+                    "qCalcCond": {},
+                    "qTitle": {},
+                    "qCalcCondition": {
+                      "qCond": {},
+                      "qMsg": {}
+                    },
+                    "qColumnOrder": [],
+                    "qExpansionState": []
+                  },
+                  "color": {
+                    "outline": {
+                      "index": -1,
+                      "color": "#7b7a78"
+                    },
+                    "outlineOpacity": 1,
+                    "opacity": 1,
+                    "auto": false,
+                    "mode": "primary",
+                    "paletteColor": {
+                      "index": 6,
+                      "color": "#4477aa"
+                    },
+                    "measureScheme": "sg",
+                    "dimensionScheme": "12",
+                    "colorExpression": "",
+                    "expressionIsColor": true,
+                    "measureMin": 0,
+                    "measureMax": 10
+                  }
+                }
+              ]
+            }
+          }
+        }
+      },
+      "qChildren": []
+    }
+  ]
+}

@@ -1,0 +1,275 @@
+[
+  {
+    "qIsHidden": true,
+    "qIsSystem": true,
+    "qName": "$Field",
+    "qTags": [
+      "$ascii",
+      "$text",
+      "$key",
+      "$hidden",
+      "$system"
+    ],
+    "qSrcTables": []
+  },
+  {
+    "qIsHidden": true,
+    "qIsSystem": true,
+    "qName": "$FieldNo",
+    "qTags": [
+      "$numeric",
+      "$integer",
+      "$hidden",
+      "$system"
+    ],
+    "qSrcTables": []
+  },
+  {
+    "qIsHidden": true,
+    "qIsSystem": true,
+    "qName": "$Fields",
+    "qTags": [
+      "$numeric",
+      "$integer",
+      "$hidden",
+      "$system"
+    ],
+    "qSrcTables": []
+  },
+  {
+    "qIsHidden": true,
+    "qIsSystem": true,
+    "qName": "$Info",
+    "qTags": [
+      "$ascii",
+      "$text",
+      "$hidden",
+      "$system"
+    ],
+    "qSrcTables": []
+  },
+  {
+    "qIsHidden": true,
+    "qIsSystem": true,
+    "qName": "$Rows",
+    "qTags": [
+      "$numeric",
+      "$integer",
+      "$hidden",
+      "$system"
+    ],
+    "qSrcTables": []
+  },
+  {
+    "qIsHidden": true,
+    "qIsSystem": true,
+    "qName": "$Table",
+    "qTags": [
+      "$ascii",
+      "$text",
+      "$key",
+      "$hidden",
+      "$system"
+    ],
+    "qSrcTables": []
+  },
+  {
+    "qName": "CTAS _Level",
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "Patient"
+    ]
+  },
+  {
+    "qName": "DOB",
+    "qTags": [
+      "$numeric"
+    ],
+    "qSrcTables": [
+      "Patient"
+    ]
+  },
+  {
+    "qName": "DT ER Doctor",
+    "qTags": [
+      "$numeric",
+      "$timestamp"
+    ],
+    "qSrcTables": [
+      "Doctor"
+    ]
+  },
+  {
+    "qName": "DT ER Doctor Decision",
+    "qTags": [
+      "$numeric",
+      "$timestamp"
+    ],
+    "qSrcTables": [
+      "Doctor"
+    ]
+  },
+  {
+    "qName": "DT ER Doctor Disposition",
+    "qTags": [
+      "$numeric",
+      "$timestamp"
+    ],
+    "qSrcTables": [
+      "Doctor"
+    ]
+  },
+  {
+    "qIsHidden": true,
+    "qName": "Doctor.Doctor.Nationality_GeoInfo",
+    "qTags": [
+      "$ascii",
+      "$text",
+      "$hidden",
+      "$geopolygon",
+      "$relates_Doctor.Nationality"
+    ],
+    "qSrcTables": []
+  },
+  {
+    "qName": "Doctor.Gender",
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "Doctor"
+    ]
+  },
+  {
+    "qName": "Doctor.Lname",
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "Doctor"
+    ]
+  },
+  {
+    "qName": "Doctor.Nationality",
+    "qTags": [
+      "$ascii",
+      "$text",
+      "$geoname",
+      "$relates_Doctor.Doctor.Nationality_GeoInfo"
+    ],
+    "qSrcTables": [
+      "Doctor"
+    ]
+  },
+  {
+    "qName": "DoctorID",
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "Doctor"
+    ]
+  },
+  {
+    "qName": "Fname",
+    "qTags": [
+      "$ascii",
+      "$text",
+      "$key"
+    ],
+    "qSrcTables": [
+      "Patient",
+      "Doctor"
+    ]
+  },
+  {
+    "qName": "Gender",
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "Patient"
+    ]
+  },
+  {
+    "qName": "Lname",
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "Patient"
+    ]
+  },
+  {
+    "qName": "Nationality",
+    "qTags": [
+      "$ascii",
+      "$text",
+      "$geoname",
+      "$relates_Patient.Nationality_GeoInfo"
+    ],
+    "qSrcTables": [
+      "Patient"
+    ]
+  },
+  {
+    "qIsHidden": true,
+    "qName": "Patient.Nationality_GeoInfo",
+    "qTags": [
+      "$ascii",
+      "$text",
+      "$hidden",
+      "$geopolygon",
+      "$relates_Nationality"
+    ],
+    "qSrcTables": []
+  },
+  {
+    "qName": "PatientID",
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "Patient"
+    ]
+  },
+  {
+    "qName": "PatientSSN",
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "Patient"
+    ]
+  },
+  {
+    "qName": "Phone_number",
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "Patient"
+    ]
+  },
+  {
+    "qName": "Specialization Clinic",
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "Doctor"
+    ]
+  }
+]

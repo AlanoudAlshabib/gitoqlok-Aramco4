@@ -1,0 +1,62 @@
+[
+  {
+    "qInfo": {
+      "qId": "26ccf13d-40c0-4560-a66f-ee919218fd84",
+      "qType": "variable"
+    },
+    "qMetaDef": {},
+    "qName": "matches",
+    "qNumberPresentation": {
+      "qType": "U",
+      "qnDec": 10,
+      "qUseThou": 0
+    },
+    "qDefinition": "0",
+    "qIsScriptCreated": true
+  },
+  {
+    "qInfo": {
+      "qId": "7f52abc2-8c40-4e13-b979-d5692b576bb9",
+      "qType": "variable"
+    },
+    "qMetaDef": {},
+    "qName": "name",
+    "qNumberPresentation": {
+      "qType": "U",
+      "qnDec": 10,
+      "qUseThou": 0
+    },
+    "qDefinition": "Doctor",
+    "qIsScriptCreated": true
+  },
+  {
+    "qInfo": {
+      "qId": "eb3459ba-4d26-4e55-b778-a6c576f916fe",
+      "qType": "variable"
+    },
+    "qMetaDef": {},
+    "qName": "index",
+    "qNumberPresentation": {
+      "qType": "U",
+      "qnDec": 10,
+      "qUseThou": 0
+    },
+    "qDefinition": "0",
+    "qIsScriptCreated": true
+  },
+  {
+    "qInfo": {
+      "qId": "f89f7f64-f705-4684-afbd-6c785b57358e",
+      "qType": "variable"
+    },
+    "qMetaDef": {},
+    "qName": "currentName",
+    "qNumberPresentation": {
+      "qType": "U",
+      "qnDec": 10,
+      "qUseThou": 0
+    },
+    "qDefinition": "Doctor",
+    "qIsScriptCreated": true
+  }
+]
